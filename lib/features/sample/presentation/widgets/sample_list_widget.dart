@@ -1,15 +1,14 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_clean_bloc_template/core/utils/custom_colors.dart';
-import 'package:flutter_clean_bloc_template/core/widget/error_handling/error_handling_widget.dart';
-import 'package:flutter_clean_bloc_template/features/sample/domain/models/sample_model.dart';
-import 'package:flutter_clean_bloc_template/features/sample/presentation/bloc/sample_bloc.dart';
-import 'package:flutter_clean_bloc_template/features/sample/presentation/bloc/status/sample_list_status.dart';
-import 'package:flutter_clean_bloc_template/features/sample/presentation/widgets/empty_data_sample_list_widget.dart';
-import 'package:flutter_clean_bloc_template/features/sample/presentation/widgets/loading_sample_card.dart';
-import 'package:flutter_clean_bloc_template/features/sample/presentation/widgets/sample_card.dart';
+import '../../../../core/utils/custom_colors.dart';
+import '../../../../core/widget/error_handling/error_handling_widget.dart';
+import '../../domain/models/sample_model.dart';
+import '../bloc/sample_bloc.dart';
+import '../bloc/status/sample_list_status.dart';
+import 'empty_data_sample_list_widget.dart';
+import 'loading_sample_card.dart';
+import 'sample_card.dart';
 import 'package:scroll_edge_listener/scroll_edge_listener.dart';
 
 class SampleListWidget extends StatefulWidget {

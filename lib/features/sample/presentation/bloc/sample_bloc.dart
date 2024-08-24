@@ -1,11 +1,10 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:bloc/bloc.dart';
 import 'package:dio/dio.dart';
-import 'package:flutter_clean_bloc_template/core/error_handling/failure.dart';
-import 'package:flutter_clean_bloc_template/features/sample/domain/get_sample_list_use_case.dart';
-import 'package:flutter_clean_bloc_template/features/sample/domain/models/sample_model.dart';
-import 'package:flutter_clean_bloc_template/features/sample/domain/models/sample_list_params.dart';
-import 'package:flutter_clean_bloc_template/features/sample/presentation/bloc/status/sample_list_status.dart';
+import '../../../../core/error_handling/failure.dart';
+import '../../domain/get_sample_list_use_case.dart';
+import '../../domain/models/sample_model.dart';
+import '../../domain/models/sample_list_params.dart';
+import 'status/sample_list_status.dart';
 
 part './sample_state.dart';
 part './sample_event.dart';
