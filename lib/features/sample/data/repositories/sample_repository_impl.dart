@@ -1,10 +1,10 @@
 import 'package:dartz/dartz.dart';
-import 'package:flutter_clean_bloc_template/core/error_handling/custom_exception.dart';
-import 'package:flutter_clean_bloc_template/core/error_handling/failure.dart';
-import 'package:flutter_clean_bloc_template/core/utils/utils.dart';
-import 'package:flutter_clean_bloc_template/features/sample/data/datasources/network/mapper/sample_mapper.dart';
-import 'package:flutter_clean_bloc_template/features/sample/domain/models/sample_list_params.dart';
-import 'package:flutter_clean_bloc_template/features/sample/domain/models/sample_model.dart';
+import '../../../../core/error_handling/custom_exception.dart';
+import '../../../../core/error_handling/failure.dart';
+import '../../../../core/utils/utils.dart';
+import '../datasources/network/mapper/sample_mapper.dart';
+import '../../domain/models/sample_list_params.dart';
+import '../../domain/models/sample_model.dart';
 
 import '../datasources/network/abstraction/sample_data_source.dart';
 import '../../domain/repositories/sample_repository.dart';

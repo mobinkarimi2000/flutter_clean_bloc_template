@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_clean_bloc_template/core/utils/custom_colors.dart';
+import '../utils/custom_colors.dart';
 
 class CustomSlidableWidget extends StatefulWidget {
   const CustomSlidableWidget({

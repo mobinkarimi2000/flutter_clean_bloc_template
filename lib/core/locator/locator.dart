@@ -1,10 +1,10 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:flutter_clean_bloc_template/core/extension/dio_extension.dart';
-import 'package:flutter_clean_bloc_template/core/extension/shared_preferences_manager.dart';
-import 'package:flutter_clean_bloc_template/core/router/router.dart';
-import 'package:flutter_clean_bloc_template/main.dart';
+import '../extension/dio_extension.dart';
+import '../extension/shared_preferences_manager.dart';
+import '../router/router.dart';
+import '../../main.dart';
 import 'package:get_it/get_it.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

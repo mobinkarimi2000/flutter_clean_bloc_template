@@ -1,5 +1,5 @@
-import 'package:flutter_clean_bloc_template/core/error_handling/failure.dart';
-import 'package:flutter_clean_bloc_template/features/sample/domain/models/sample_model.dart';
+import '../../../../../core/error_handling/failure.dart';
+import '../../../domain/models/sample_model.dart';
 
 abstract class SampleListStatus {}
 
