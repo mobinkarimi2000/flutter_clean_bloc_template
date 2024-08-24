@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'error_handling_widget.dart';
 
 class UnauthorizedErrorWidget extends StatelessWidget

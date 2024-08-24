@@ -12,7 +12,6 @@ import 'package:flutter_clean_bloc_template/core/utils/constants.dart';
 import 'package:flutter_clean_bloc_template/core/utils/custom_colors.dart';
 import 'package:flutter_clean_bloc_template/core/widget/custom_elevated_button.dart';
 import 'package:flutter_clean_bloc_template/main.dart';
-
 import 'package:geolocator/geolocator.dart' as geo;
 import 'package:go_router/go_router.dart';
 import 'package:intl/intl.dart';
